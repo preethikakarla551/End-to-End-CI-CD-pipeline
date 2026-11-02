@@ -1,4 +1,4 @@
-name: CI/CD
+name: End-to-End CI/CD Pipeline
 
 on:
   pull_request:

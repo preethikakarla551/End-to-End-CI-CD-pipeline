@@ -1,4 +1,6 @@
-# End-to-end CI/CD on GitHub Actions, ECR, and EKS
+# End-to-End CI/CD Pipeline
+
+GitHub Actions, Amazon ECR, and Amazon EKS
 
 A small FastAPI service and a deployment pipeline that runs checks on every pull request, publishes an immutable image to Amazon ECR after a push to `main`, and rolls it out to an existing Amazon EKS cluster.
 
