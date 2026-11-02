@@ -30,7 +30,7 @@ jobs:
       - name: Lint
         run: ruff check .
       - name: Unit tests
-        run: pytest
+        run: python -m pytest
 
   deploy:
     name: Build, publish, and deploy
