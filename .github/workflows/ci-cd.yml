@@ -34,7 +34,7 @@ jobs:
 
   deploy:
     name: Build, publish, and deploy
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && vars.AWS_ROLE_ARN != ''
     needs: checks
     runs-on: ubuntu-latest
     permissions:
